@@ -1,0 +1,163 @@
+
+img{
+    max-width: 100%;
+}
+
+.wrapper {
+ width: 80%;
+ margin: 0 auto;
+}
+
+/*************
+HEADER
+*************/
+
+header {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+.brand{
+    font-size: 60px;
+    font-weight: bold;
+    ffont-family: 'Exo', sans-serif;
+   
+}
+
+nav {
+ margin: 22px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black; 
+    text-transform: capitalize;
+    font-size: 16px;
+    margin: 0 14px;
+    font-weight: 600;
+    font-family: 'Orbitron', sans-serif;
+}
+
+/*************
+Upper IMG
+*************/
+
+.space-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/*************
+Main SECtion
+*************/
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    border-bottom: 2px black solid;
+    padding-bottom: 65px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.main-section {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-section img {
+    border-radius: 10px;
+}
+.main-section h2{
+    text-transform: capitalize;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom:  9px; 
+}
+
+.main-section p {
+    font-size: 16px;
+    line-height: 1.1;
+}
+
+/*************
+Lower SECtion
+*************/
+
+.lower-section {
+    display: flex;
+    justify-content: space-between;
+   padding: 0 60px;
+   margin: 40px 0;
+   
+}
+
+.lower-section article {
+    width: 45%;
+}
+
+.lower-section article img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.lower-section article h2 {
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom:  9px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.lower-section article p {
+    font-size: 16px;
+    line-height: 1.1;
+    margin: 10px 0;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.btn {
+    text-decoration: none;
+    color:white;
+    background-color: chocolate;
+    font-size: 35px;
+    padding: 4px 10px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+
+.btn:hover {
+    background:white;
+    color: chocolate;
+}
+/*************
+Footer
+*************/
+
+footer {
+    text-align: center;
+    background-color: lightgrey;
+    padding: 34px;
+    border-radius: 15px;
+}
+
+footer h2 {
+    font-size: 18px;
+}
+
